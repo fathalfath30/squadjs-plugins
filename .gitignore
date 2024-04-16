@@ -1,0 +1,30 @@
+### SquadJS File
+.github
+.husky
+assets
+core
+logs
+
+*.sqlite
+.eslintignore
+index.js
+.eslintrc
+.prettierrc
+config.json
+node_modules
+package.json
+package-lock.json
+.lintstagedrc
+
+### Project File
+.idea
+!squad-server/plugins/vehicle-claim.js
+!squad-server/plugins/squad-enforcer.js
+
+/squad-server/layers/
+/squad-server/log-parser/
+/squad-server/scripts/
+/squad-server/templates/
+/squad-server/factory.js
+/squad-server/index.js
+/squad-server/rcon.js
